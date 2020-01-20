@@ -1,0 +1,148 @@
+*{box-sizing: border-box;
+    background-color: white;
+}
+
+ul,li{
+    margin: 0.5;
+    padding: 10px;
+    list-style: none;
+    border-style: 3px black;
+}
+
+ul{
+    grid-auto-rows: 80px;
+    display: grid;
+    grid-auto-flow: dense;
+
+}
+
+li{
+    height: 100%;
+    border-style: 3px solid black;
+    background-size: cover;
+}
+
+li:nth-child(1){
+    grid-row: span 2;
+    grid-column: span 4;
+    background-color: blanchedalmond;
+    border-style:3px black;
+    
+}
+
+li:nth-child(2){
+    grid-row: span 4;
+    grid-column: span 5;
+    background-color: yellow;
+}
+
+li:nth-child(3){
+    grid-row: span 2;
+    grid-column: span 6;
+    background-color: blue;
+}
+
+li:nth-child(4){
+    grid-row: span 6;
+    grid-column: span 4;
+    background-color: red;
+}
+
+li:nth-child(5){
+    grid-row: span 3;
+    grid-column: span 5;
+    background-color: blanchedalmond;
+}
+
+li:nth-child(6){
+    grid-row: span 2;
+    grid-column: span 7;
+    background-color: red;
+}
+
+li:nth-child(7){
+    grid-row: span 8;
+    grid-column: span 10;
+    background-color: blanchedalmond;
+
+}
+
+li:nth-child(8){
+    grid-row: span 5;
+    grid-column: span 9;
+    background-color: blanchedalmond;
+}
+
+li:nth-child(9){
+    grid-row: span 2;
+    grid-column: span 3;
+    background-color: blue;
+
+}
+
+li:nth-child(10){
+    grid-row: span 4;
+    grid-column: span 7;
+    background-color: blue;
+
+}
+
+li:nth-child(11){
+    grid-row: span 1;
+    grid-column: span 3;
+    background-color: red;
+}
+
+li:nth-child(12){
+    grid-row: span 7;
+    grid-column: span 9;
+    background-color: yellow;
+}
+
+li:nth-child(13){
+    grid-row: span 5;
+    grid-column: span 8;
+    background-color: yellow;
+}
+
+li:nth-child(14){
+    grid-row: span 2;
+    grid-column: span 7;
+    background-color: blue;
+}
+
+li:nth-child(15){
+    grid-row: span 2;
+    grid-column: span 3;
+    background-color: red;
+}
+
+li:nth-child(16){
+    grid-row: span 4;
+    grid-column: span 7;
+    background-color: blanchedalmond;
+}
+
+li:nth-child(17){
+    grid-row: span 2;
+    grid-column: span 9;
+    background-color: blue;
+}
+
+li:nth-child(18){
+    grid-row: span 4;
+    grid-column: span 7;
+    background-color: blue;
+}
+
+li:nth-child(19){
+    grid-row: span 5;
+    grid-column: span 6;
+    background-color:yellow;
+}
+
+li:nth-child(20){
+    grid-row: span 8;
+    grid-column: span 2;
+    background-color:yellow;
+}
